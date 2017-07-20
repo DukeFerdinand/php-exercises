@@ -42,7 +42,8 @@
 			// echo "Buzz" . PHP_EOL;
 			fwrite(STDOUT, `cowsay -t "$arr[$rand]" Buzz`);
 		} else {
-			echo $i . PHP_EOL;
+			// echo $i . PHP_EOL;
+			fwrite(STDOUT, `cowsay $i`);
 		}
 	}
 

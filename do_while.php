@@ -1,10 +1,10 @@
 <?php
 
-$var = 2;
+$a = 2;
 
 do {
-	echo "$var\n";
-	$var = $var * $var;
-} while ($var <= 65536);
+	echo "$a\n";
+	$a = $a * $a;
+} while ($a <= 65536);
 
 ?>

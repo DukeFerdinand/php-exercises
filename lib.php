@@ -98,9 +98,9 @@ function randColor(){
 	echo "\$randColor: # $num;" . PHP_EOL;
 }
 
-function append($fileName, $string)
+function append($fileName, $message)
 {
-	$handle = fopen($filename, 'a');
-	fwrite($handle, $string);
+	$handle = fopen($fileName, 'a');
+	fwrite($handle, $message);
 	fclose($handle);
 }
